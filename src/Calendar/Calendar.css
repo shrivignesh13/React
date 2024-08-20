@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: mediumseagreen;
+}
+.container{
+    width: 400px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+}
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+select{
+    font-size: 20px;
+    padding: 0px 8px;
+}
+.week{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    margin-bottom: 10px;
+}
+.days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 10px;
+}
+.day,.empty{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.empty{
+    background-color: #f9f9f9;
+}
+.day:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.current{
+    background-color: orangered;
+    color: white;
+}
+img{
+   height: 25px;
+   width: 25px;
+}

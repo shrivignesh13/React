@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #888;
+    height: 100vh;
+    width: 100vw;
+}
+.container{
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+h2{
+    color: orangered;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+.time{
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.date{
+    color: #888;
+    font-size: 20px;
+
+}

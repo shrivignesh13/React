@@ -1,0 +1,63 @@
+.container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+
+}
+img{
+    padding: 5px;
+}
+.label{
+    display: block;
+    margin-bottom: 10px;
+    color: red;
+    font-size: 14px;
+    font-weight: 500;
+}
+input[type='text']{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: medium;
+    border: 2px solid dodgerblue;
+    border-radius: 10px;
+}
+button{
+    padding: 15px 20px;
+    font-size: smaller;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.generate{
+    background-color: dodgerblue;
+}
+.generate:hover{
+    background-color: darkblue;
+
+}
+.generate:disabled{
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+.download{
+    background-color: #27ae60;
+    margin-left: 37px;
+
+}
+.download:hover{
+    background-color: green;
+}
+h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: dodgerblue;
+    border-bottom: 1.5px solid;
+}

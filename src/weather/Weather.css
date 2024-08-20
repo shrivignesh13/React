@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Fira Sans", sans-serif;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    overflow: hidden;
+}
+
+.container{
+    width: 450px;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 30px;
+}
+.input{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #70e6f3;
+    overflow: hidden;
+}
+.cityInput{
+    flex: 1;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+
+}
+.search{
+    padding: 10px;
+    height: 30px;
+    cursor: pointer;
+
+}
+.search img{
+    height: 30px;
+}
+.image{
+    text-align: center;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.image img{
+    width: 150px;
+    height: 150px;
+
+}
+.temp,.country,.location{
+    margin-top: 5px;
+    font-size: 35px;
+    color: #333;
+ text-transform: uppercase;
+ text-align: center;
+}
+.temp{
+    font-weight: 500;
+}
+.location{
+    color: gold;
+    font-weight: 400;
+    font-size: 40px;
+}
+.country{
+    font-size: 20px;
+    color: #888;
+    font-weight: 500;
+}
+.cord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.cord div {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.humi-perc,.wind-perc,
+.cord div span:nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.wind,.humi{
+    height: 100px;
+    width: 100px;
+}
+.element{
+    text-align: center;
+}
+.load-message,.error-message,.city-not-found{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 350;
+    color: #888;
+}

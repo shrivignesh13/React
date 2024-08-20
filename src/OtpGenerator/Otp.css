@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 179, 184);
+}
+.container{
+    max-width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+h2{
+    margin-bottom: 15px;
+    text-align: center;
+    color: dodgerblue;
+    font-weight: bold;
+}
+.input,.checkbox,.password{
+    margin-bottom: 15px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+
+}
+.checkbox input{
+    margin-right: 10px;
+}
+.input label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.gen{
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.gen:hover{
+    background-color: blue;
+}
+.password{
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid #ccc;
+    overflow: hidden;
+
+}
+input[type="text"]{
+    border: none;
+    flex: 1;
+    padding: 8px;
+
+}
+.copy{
+    border: none;
+    padding: 5px;
+    background-color: yellowgreen;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}

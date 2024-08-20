@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    font-family: "Roboto Mono", monospace;
+}
+table{
+    border: 1px solid dodgerblue;
+    border-collapse: collapse;
+
+}
+table td{
+    border: 1px solid blueviolet;
+    padding: 10px 20px;
+}
+table td:first-child{
+    font-weight: 500;
+}
+form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 10px;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
